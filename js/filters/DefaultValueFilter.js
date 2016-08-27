@@ -9,6 +9,7 @@ module.exports = function DefaultValueFilter() {
 
 	function init() {
 		iframe = document.createElement('iframe');
+		iframe.setAttribute("style", "display:none");
 		document.body.appendChild(iframe);
 	}
 
