@@ -7,7 +7,7 @@
  *
  * @constructor
  */
-function ShorthandPropertyFilter() {
+module.exports = function ShorthandPropertyFilter() {
 	"use strict";
 
 	var shorthands = {

@@ -3,7 +3,7 @@
  *
  * @constructor
  */
-function WebkitPropertiesFilter() {
+module.exports = function WebkitPropertiesFilter() {
 	"use strict";
 
 	function removeWebkitProperties(style) {
